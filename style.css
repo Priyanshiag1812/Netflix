@@ -1,0 +1,277 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-color: #232323;
+    
+}
+.main {
+    margin: auto;
+    height:90vh;
+    background-size: max-width(1200px,100vw);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center center;
+    background-image:url('netflixxxx\ bg.jpg') ;
+}
+.main .box{
+    height:90vh;
+    width:100%;
+    opacity: 0.56;
+    background-color:black;
+    position: absolute;
+    top: 0;
+}
+
+.logo{
+    width:100px;
+    height:32px;
+    text-align: center;
+    vertical-align: auto;
+    background: transparent;
+
+}
+.nav{
+    max-width: 60vw;
+    justify-content: space-between;
+    height: 48px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    margin:auto;
+    padding-top: 40px;
+}
+.nav img{
+    position:relative;
+    z-index: 10;
+    background: transparent;
+  
+}
+
+
+.sign{
+    background-color: red;
+    border-radius: 3px;
+    color:white;
+    border:none;
+    height:32px;
+    width:76px;
+    position:relative;
+    z-index: 10; 
+}
+#lang{
+width:126px;
+height:32px;
+padding:6px 16px;
+border-radius: 3px;
+border: #FFFFFF 1px solid;
+color:#FFFFFF;
+background-color: transparent;
+position:relative;
+z-index: 10; 
+}
+
+.join{
+    background-position: center center;
+    padding-top: 190px;
+    margin: auto;
+
+    height:175px;
+    width:733px;
+    margin: auto;
+    color:#FFFFFF;
+    text-align:center;
+    background-color: transparent;
+    position:relative;
+
+}
+.email{
+    width:374px; height:56px;
+    padding:24px 16px;
+}
+.get{
+    background-color: red;
+    border-radius: 4px;
+    color:white;
+    border:none;
+    height:52px;
+    width:203px;
+    font-size: 20px;
+
+
+}
+.tv,.mobile,.web,.kids{
+    color:#FFFFFF;
+    width:100%;
+   height:507px;
+   background-color: black;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   margin-top:10px ;
+   margin-bottom:20px ;
+   flex-wrap: column;
+   text-align: center;
+   padding:50px;
+   padding-right:10px;
+}
+.le{
+    display:inline-block;
+    width:40%;
+    color:#FFFFFF;
+    height:507px;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: auto;
+    text-align: center;
+    box-sizing: content-box;
+
+}
+.so,.lo{
+    display:inline-block;
+    width:40%;
+}
+.pi{
+    color:#FFFFFF;
+    display:inline-block;
+    background-color: black;
+    width:40%;
+    box-sizing: content-box;
+   display:flex;
+    justify-content: center;
+    align-items: center;
+    height:507px;
+    vertical-align: auto;
+    text-align: center;
+    position: relative;
+}
+.ri{
+    color:#FFFFFF;
+    display:inline-block;
+    background-color: black;
+    width:40%;
+    box-sizing: content-box;
+   display:flex;
+    justify-content: center;
+    align-items: center;
+    height:507px;
+    vertical-align: auto;
+    text-align: center;
+    position: relative;
+}
+.que{
+    width:970px;
+    height:84px;
+    padding: 24px;
+    color:#FFFFFF;
+    text-align: left;
+    font-size:24px;
+    margin:5px;
+}
+
+.fit{
+    display:inline-block;
+    display:flex;
+    justify-content:center;
+    align-content: center;
+    background-color: black;
+    align-items: center;
+  
+}
+.ans{
+    color:#FFFFFF;
+    font-size: 40px;
+    display: inline-block;
+    height:84px;
+    width:40px;
+
+}
+.que:hover{
+    background-color: #23232388;
+}
+.email{
+    background-color: black;
+    margin-top: 10px;
+}
+
+.str{
+    background-color: black;
+}
+.stran{
+    display:inline;
+    display:flex;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+width:370px;
+height: 96px;
+background-color: black;
+border: 1px white solid;
+border-radius: 9px;
+
+}
+.ri img{
+   position: relative;
+   background-color: transparent;
+   z-index: 10;
+}
+.ri video{
+    position: absolute;
+   
+}
+.pi img{
+    position: relative;
+    background-color: transparent;
+    z-index: 10;
+}
+.pi video{
+    position: absolute;
+    top:100px;
+    background-color: #232323;
+}
+
+
+
+.ji{
+  background-color: black;
+}
+.txt{
+    background-color: black;
+    margin:30px;
+}
+.question{
+    text-align: center;
+    width:100%;
+    height:930px;
+    padding:72px 0px;
+    background-color: black;
+    margin-top: 10px;
+}
+footer{
+    margin-top:10px;
+    padding: 20px;
+    color:#FFFFFF;
+    background-color: black;
+    padding-bottom: 100px;
+
+}
+
+table{
+  
+    color:#FFFFFF;
+    background-color: black;
+    border:none;
+}
+td{
+    padding:8px 75px;
+    border:none;
+    color:#FFFFFF;
+    background-color: black;
+}
+a{
+    color: #FFFFFF;
+    background-color: black;
+}
