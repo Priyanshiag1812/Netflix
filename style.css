@@ -7,7 +7,8 @@
 }
 .main {
     margin: auto;
-    height:90vh;
+    height:100vh;
+    width:100vw;
     background-size: max-width(1200px,100vw);
     background-repeat: no-repeat;
     position: relative;
@@ -15,7 +16,7 @@
     background-image:url('netflixxxx\ bg.jpg') ;
 }
 .main .box{
-    height:90vh;
+    height:100vh;
     width:100%;
     opacity: 0.56;
     background-color:black;
