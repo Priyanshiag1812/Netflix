@@ -10,13 +10,13 @@ function toggleAccordian(e){
     if(nextpara.classList.contains("active"))
         {
         nextpara.classList.remove("active");
-        clickIcon.classList.remove("fa-square-xmark");
-        clickIcon.classList.add("fa-square-plus")
+        clickIcon.classList.remove("fa-xmark");
+        clickIcon.classList.add("fa-plus")
         
     }
     else{
         nextpara.classList.add("active");
-        clickIcon.classList.remove("fa-square-plus");
-        clickIcon.classList.add("fa-square-xmark")
+        clickIcon.classList.remove("fa-plus");
+        clickIcon.classList.add("fa-xmark")
     }
 }

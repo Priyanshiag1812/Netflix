@@ -3,6 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
   background-color: #232323;
+  font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 }
 
 .main {
@@ -18,28 +19,33 @@
 .main .box {
   height: 100vh;
   width: 100%;
-  opacity: 0.56;
+  opacity: 0.76;
   background-color: black;
   position: absolute;
   top: 0;
 }
-.logo_style{
-  background-color:transparent;
+.logo_style {
+  background-color: transparent;
+  width: 200px;
+  height: 42px;
+  text-align: center;
+  vertical-align: auto;
+  background: transparent;
 }
 
 .logo {
-  width: 100px;
-  height: 32px;
+  width: 200px;
+  height: 40px;
   text-align: center;
   vertical-align: auto;
   background: transparent;
 }
 
 .nav {
-  max-width: 60vw;
+  max-width: 80vw;
   justify-content: space-between;
   height: 48px;
-  width: 800px;
+  width: 1000px;
   display: flex;
   align-items: center;
   background-color: transparent;
@@ -50,21 +56,23 @@
 .nav img {
   position: relative;
   z-index: 10;
-  background: transparent;
+  background-color: transparent;
 }
 
 .sign_btn {
   background-color: red;
-  border-radius: 3px;
+  border-radius: 5px;
   color: white;
   border: none;
   height: 32px;
-  width: 76px;
+  width: 84px;
   position: relative;
   z-index: 10;
+  font-size: 15px;
+  font-weight: 600;
 }
 
-.lang{
+.lang {
   width: 126px;
   height: 32px;
   padding: 6px 16px;
@@ -74,11 +82,12 @@
   background-color: transparent;
   position: relative;
   z-index: 10;
+  font-size: 15px;
 }
 
 .hero_section {
   background-position: center center;
-  padding-top: 190px;
+  padding-top: 130px;
   margin: auto;
   height: 175px;
   width: 733px;
@@ -91,26 +100,29 @@
 
 .main_heading {
   background-color: transparent;
-  font-size: 52px;
+  font-size: 54px;
   z-index: 78;
+  font-weight: 800;
 }
 
 .secondary_heading {
-  margin: 16px 0px;
-  font-size: 23px;
+  margin: 14px 0px;
+  font-size: 22px;
   background-color: transparent;
+  font-weight: 600;
 }
 
 .form_style {
   background-color: transparent;
+  padding-top: 20px;
 }
 
 .para {
   background-color: transparent;
-  font-size: 23px;
+  font-size: 18px;
 }
 
-.btn_section{
+.btn_section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -121,21 +133,21 @@
   width: 350px;
   height: 56px;
   padding: 24px 16px;
-  margin:0px 15px 10px 5px;
-  border: white 1px solid;
+  margin: 0px 10px 10px 5px;
+  border: rgb(179, 178, 178) 1px solid;
   background-color: rgba(0, 0, 0, 0.472);
   border-radius: 4px;
   align-items: baseline;
 }
 
 .get_btn {
-  margin:0px 5px 10px 5px;
+  margin: 0px 5px 10px 5px;
   background-color: red;
   border-radius: 4px;
   color: white;
   border: none;
   height: 56px;
-  width: 203px;
+  width: 223px;
   font-size: 24px;
   font-weight: 600;
 }
@@ -172,7 +184,7 @@
 
 .heading {
   text-align: left;
-  font-size: 48px;
+  font-size: 46px;
   background-color: black;
 }
 
@@ -182,11 +194,7 @@
   background-color: black;
 }
 
-.so,.lo {
-  display: inline-block;
-  width: 40%;
-}
-.pi {
+.desktop {
   color: #ffffff;
   display: inline-block;
   background-color: black;
@@ -224,7 +232,9 @@
   position: absolute;
 }
 
-
+.black {
+  background-color: black;
+}
 
 .email {
   background-color: black;
@@ -246,23 +256,23 @@
   border: 1px white solid;
   border-radius: 9px;
 }
-.download_btn_content{
-  font-size:26px;
-  background-color:black;
+.download_btn_content {
+  font-size: 26px;
+  background-color: black;
 }
 
-.blue_txt{
-font-size:26px;
-color:blue; background-color: black;
+.blue_txt {
+  font-size: 26px;
+  color: blue;
+  background-color: black;
 }
 
-
-.pi img {
+.desktop img {
   position: relative;
   background-color: transparent;
   z-index: 10;
 }
-.pi video {
+.desktop video {
   position: absolute;
   top: 100px;
   background-color: #232323;
@@ -278,86 +288,17 @@ color:blue; background-color: black;
 .question_section {
   text-align: center;
   width: 100%;
-  height: 1200px;
   padding: 72px 0px;
   background-color: black;
   margin-top: 10px;
-  position: relative;
+  
+  
 }
 
 .ques_title {
   background-color: black;
-  font-size: 50px;
+  font-size: 46px;
   color: #ffffff;
-}
-
-.question_content {
-
-  width: 870px;
-  height: 84px;
-  padding: 24px;
-  color: #ffffff;
-  text-align: left;
-  font-size: 24px;
-  margin: 8px;
-}
-
-.question_box {
-display: inline-block;
-  width: 300px;
-  background-color: black;
-  align-items: center;
-  padding: 10px 8px;
-  
-}
-
-.que:hover {
-  background-color: #23232388;
-}
-
-.ans {
-  color: #ffffff;
-  font-size: 40px;
-  display: inline-block;
-  height: 84px;
-  width: 40px;
-}
-#accordion{
-  
-  height: 100vh;
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.accord{
-  margin-bottom: 1rem;
-  width: 100%;
-  
-}
-.accord h1{
-  border: 1px solid;
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-}
-.accord h1 i{
-  cursor: pointer;
-}
-.accord p{
-  display: none;
-}
-.accord p.active{
-  
-  position: absolute;
-  width: 87%;
-  border: 1px solid;
-  padding: 12px ;
-  text-align: left;
-  color: #e2dddd;
-  
 }
 
 footer {
@@ -382,18 +323,17 @@ td {
   color: #7e7d7d;
   font-size: 16px;
 }
-.footer_section{
-  margin:30px 10px;
+.footer_section {
+  margin: 30px 10px;
   background-color: black;
-  margin:20px  92px;
+  margin: 20px 92px;
 }
 
-a ,span{
+a,
+span {
   color: #ffffff;
   background-color: black;
   color: #7e7d7d;
   margin: 12px 7px;
   font-size: 16px;
 }
-
-
