@@ -82,7 +82,7 @@
   background-color: transparent;
   position: relative;
   z-index: 10;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .hero_section {
@@ -285,12 +285,18 @@
   background-color: black;
   margin: 30px;
 }
+
+.questions{
+  background-color: black;
+  padding: 20px;
+  margin: 20px;
+}
 .question_section {
   text-align: center;
   width: 100%;
   padding: 72px 0px;
   background-color: black;
-  margin-top: 10px;
+
   
   
 }
@@ -299,6 +305,9 @@
   background-color: black;
   font-size: 46px;
   color: #ffffff;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
 }
 
 footer {
